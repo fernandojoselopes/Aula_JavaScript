@@ -1,11 +1,79 @@
 
+function clicou(){
+    document.getElementById("agradecimento").innerHTML = "<b>Obrigado por clicar</b>"
+   // console.log(document.getElementById("agradecimento"));
+    //alert("Obrigado por clicar");
 
-var lista = ["maçã", "pera", "laranja"];
-lista.push("uva"); //inclui mais intens
-lista.pop("pera");//remove o ultimo elemento da lista*/
-console.log(lista);
+}
+ function redirecionar(){
+    // window.open("https://globallab.org/en/");
+     window.location.href = "https://globallab.org/en//";
+ }
+/*
+ function trocar(){
+     document.getElementById("mouseove").innerHTML="Obrogado por passar o mouse aqui"
+    // alert("trocar texto");
+ }
+ /*
+/*
+ function voltar(){
+    document.getElementById("mouseove").innerHTML="passar o mouse aqui";
+   // alert("trocar texto");
+}
+*/
+
+function trocar(elemento){
+    //document.getElementById("mouseove").innerHTML="Obrogado por passar o mouse aqui"
+    elemento.innerHTML = "obrigado por passar o mouse aqui.";
+}
+function voltar(elemento){
+   // document.getElementById("mouseove").innerHTML="passar o mouse aqui";
+   elemento.innerHTML = "passe o mouse aqui.";
+}
 
 
+function loads(){
+    alert("página carregada");
+}
+function functionChange(elemento){
+    console.log(elemento.value);
+
+}
+
+
+
+/*
+var validar;
+function validaIdade(idade){
+    
+    if (idade >=18){
+        validar = true;
+    } else{
+        validar = false;
+    }
+    return validar;
+}
+var idade = prompt("Qual sua idade");
+console.log(validaIdade(idade));
+*/
+
+
+
+/*
+function soma(n1, n2){
+    return n1+n2;
+}
+
+alert(soma(5, 10));
+*/
+/*
+function setReplace(frase, nome, novo_nome){
+    return frase.replace(nome, novo_nome)
+}
+
+
+alert(setReplace("vai Japão", "Japão", "Brasil"));
+*/
 
 //var d = new Date();
 //console.log("Hoje é " +d.getDate()+"/"+(d.getMonth()+1)); //data
